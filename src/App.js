@@ -27,6 +27,7 @@ export default function SpellCheckApp() {
 
   return (
     <div>
+      <h1>Spell Check and Auto-Correction</h1>
       <textarea value={text} onChange={handleChange} placeholder="Type here..." />
       {suggestion && <p>{suggestion}</p>}
     </div>
